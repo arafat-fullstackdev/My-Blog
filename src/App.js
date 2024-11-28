@@ -5,6 +5,7 @@ import HomePage from "./component/Template/HomePage";
 import Post from "./component/Template/Post";
 import About from "./component/Template/About";
 import Contact from "./component/Template/Contact";
+import FrontPage from "./component/testCode/Front";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/post" element={<Post />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/front" element={<FrontPage />} />
         </Routes>
       </div>
     </BrowserRouter>
