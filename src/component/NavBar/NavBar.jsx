@@ -9,6 +9,7 @@ const navigation = [
   { name: "Posts", href: "/post", current: false },
   { name: "Contact", href: "/contact", current: false },
   { name: "FrontPage", href: "/front", current: false },
+  { name: "NewsApi", href: "/news", current: false },
 ];
 
 // Utility function for conditional class names

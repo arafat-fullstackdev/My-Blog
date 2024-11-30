@@ -6,6 +6,7 @@ import Post from "./component/Template/Post";
 import About from "./component/Template/About";
 import Contact from "./component/Template/Contact";
 import FrontPage from "./component/testCode/Front";
+import NewsApi from "./component/newsApi/NewsApi";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/post" element={<Post />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/front" element={<FrontPage />} />
+          <Route path="/news" element={<NewsApi />} />
         </Routes>
       </div>
     </BrowserRouter>
