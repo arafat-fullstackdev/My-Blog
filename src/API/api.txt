@@ -1,0 +1,8 @@
+List of REST API
+1. GET: Retrieve resource(s).
+2. POST: Create new resource.
+3. PUT: Update existing resource.
+4.DELETE: Remove resource.
+5. PATCH: Partial Update to resource.
+6. HEAD: Fetch heads.
+7. OPTIONS: Retrieve supported methods
